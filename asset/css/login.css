@@ -1,0 +1,214 @@
+/* Edited by stefan */
+
+#pnlLogin {
+    /* height: 100%; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#pnlLogin-content {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#flexLogin {
+    min-width: 40% !important;
+    max-width: 90% !important;
+    background-color: rgba(0, 0, 0, 0.09) !important;
+    border-radius: 5px 5px 5px 5px !important;
+}
+
+#frmLogin--btnLogin {
+    font-size: x-large;
+    width: 100%;
+    margin-top: 30px;
+    background-color: rgb(0, 61, 105) !important;
+    color: #F3F3F3;
+    height: 2em !important;
+    border-radius: 5px 5px 5px 5px !important;
+    border-width: 0px !important;
+}
+
+
+/* End - Edited by stefan */
+
+#idPage-cont {
+    text-align: center;
+}
+
+#idTitle {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-family: Verdana;
+    /* color: #666666; */
+    color: #F5F5F5;
+    font-weight: bold;
+}
+
+#idWelcome {
+    /* font-size: 1.2rem; */
+    font-size: 2.2rem;
+    /* font-family: Verdana; */
+    font-family: Trebuchet MS;
+    /* color: #464646; */
+    color: #F3F3F3;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    line-height: 40px;
+}
+
+
+/* #idDesc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #F3F3F3;
+    font-size: 1rem;
+    font-family: BentonSans, sans-serif;
+} */
+
+#frmLogin--btnLogin:hover {
+    opacity: 0.8;
+}
+
+#frmLogin--btnLogin:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+/* Edited by stefan */
+
+#idUsername,
+#idPassword,
+#frmLogin--txtUserName,
+#frmLogin--txtPassword {
+    border-radius: 5px 5px 5px 5px !important;
+    height: 40px !important;
+    border-width: 0px !important;
+    width: 100% !important;
+    font-size: large;
+}
+
+.sapMLabel {
+    color: #F2F2F2;
+}
+
+.CustomStyle {
+    border: 1px solid gray;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.sapMInputBaseInner {
+    max-width: 320px;
+}
+
+.sapMPage {
+    /* background: rgb(254, 186, 49); */
+    background: #feba31;
+    background: -webkit-linear-gradient(to right, #feba31, #ffa120);
+    background: linear-gradient(to right, #feba31, #ffa120);
+}
+
+.whiteLabel {
+    color: #F3F3F3;
+}
+
+.sapUiTableCtrl tr.sapUiTableRowSel:not(.sapUiTableGroupHeader)>td {
+    background-color: #b4eeb4;
+}
+
+#frmDashboard--btnHide {
+    position: fixed;
+    top: 50px;
+    left: 245px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #fad390;
+    color: white;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+#frmDashboard--btnShow {
+    position: fixed;
+    top: 50px;
+    left: 245px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #fad390;
+    color: white;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+#frmDashboard--btnHide:hover {
+    background-color: #81ecec;
+}
+
+#frmDashboard--btnShow:hover {
+    background-color: #81ecec;
+}
+.pullRight{
+    text-align: right;
+}
+.sapUiUfdShellHeader {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FEF200;
+}
+
+.sapUiUfdShellBrand {
+    position: absolute;
+    top: 0;
+    height: 4px;
+    left: 0;
+    right: 0;
+    border: medium none;
+    margin: 0;
+    z-index: 7;
+    background-color: #000050;
+}
+
+.sapMInputBaseContentWrapper {
+    background: #ffffff;
+    border-radius: 5px 5px 5px 5px !important;
+}
+
+.sapMInputBaseContentWrapper {
+    height: 100%;
+    justify-content: flex-end;
+    display: block;
+    overflow: hidden;
+    min-width: -moz-min-content;
+    min-width: min-content;
+}
+
+.sapMInputBaseInner {
+    max-width: 100%;
+}
+
+#frmLogin--txtUserName-labelledby.sapUiInvisibleText{
+    color: red
+}

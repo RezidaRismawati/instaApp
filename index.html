@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+
+		<script src="resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.m, sap.ui.commons, sap.ui.unified, sap.ui.layout, sap.ui.table, sap.ui.ux3"
+				data-sap-ui-theme="sap_bluecrystal">
+		</script>
+		<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
+		<script type="text/javascript" src="asset/js/headerFooter.js"></script>		
+		
+		<script type="text/javascript" src="asset/js/library.js"></script>
+		<script type="text/javascript" src="asset/js/ConfigWeb.js"></script>		
+		<script type="text/javascript" src="asset/js/GlobalVariable.js"></script>
+
+		<script type="text/javascript" src="asset/js/anime.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="asset/css/index.css">
+		<link rel="stylesheet" type="text/css" href="asset/css/global.css">
+		<link rel="stylesheet" type="text/css" href="asset/css/login-new.css">
+		<link rel="stylesheet" type="text/css" href="asset/css/loading.css">
+
+		<style>
+			.headerbutton {
+				margin-top: -5px;
+			}
+		</style>
+				
+		<style>
+			
+			.sapUiUfdShellHeadBegin > .sapUiUfdShellIco > img {
+			    margin-top: 0px;
+			}	 
+			
+			.sapUiUfdShellBrand {
+			    position: absolute;
+			    top: 0;
+			    height: 4px;
+			    left: 0;
+			    right: 0;
+			    border: medium none;
+			    margin: 0;
+			    z-index: 7;
+			    background-color: #000050;
+			}
+			
+			.sapMGT.M.OneByOne {
+			    width: 11.375rem;
+			    height: 10.875rem;
+			    margin: 5px;
+			    background-color: aliceblue;
+			}
+
+		</style>
+		<script>
+			sap.ui.localResources("instanApp");
+			var app = new sap.m.App("appId");
+			app.placeAt("content");
+
+			//-----------Edit pengaturan view dan controller di bawah ini------------//
+			var myroutes = [
+				//-----------Route ke halaman utama------------//
+				{
+					pattern: "/",
+					name: "Login",
+					view: "instanApp.Login.Login",
+					viewType: sap.ui.core.mvc.ViewType.JS,
+					targetControl: "appId",
+					clearTarget: true,
+					callback: function () {
+						myCallback(this);
+					}
+				},
+			];
+
+			var myCallback = function ($this) {
+				var viewId = "id" + $this.name;
+				var view = sap.ui.getCore().byId(viewId);
+				if (view == undefined) {
+					view = sap.ui.view({
+						id: viewId,
+						viewName: $this.view,
+						type: sap.ui.core.mvc.ViewType.JS
+					});
+					app.addPage(view);
+				}
+				app.to(viewId);
+			};
+
+			var router = new sap.ui.core.routing.Router(myroutes);
+			router.register("appRouter");
+			router.initialize();
+		</script>
+		<title>InstaApp</title>
+	</head>
+
+<body class="sapUiBody" role="application">
+	<div id="content"></div>
+</body>
+
+</html>

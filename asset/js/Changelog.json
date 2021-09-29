@@ -1,0 +1,25 @@
+{
+"value": [
+        {
+        	"id": "3",
+			"Version": "V.1.3",
+			"Tanggal": "17 Januari 2017",
+			
+			"Change": ""
+        },
+        {
+        	"id": "2",
+			"Version": "V.1.2",
+			"Tanggal": "16 Januari 2017",
+			"Change": "UXJR012: Print recycle tidak bisa\nUXJR013: Change request menambahkan matdocUXJR014: Operator salah eksekusi\nUXJR015: Data JR Kosong\nUXJR017 : Status masih In Progress BRCD\nUXJR018 : Print Label JR tidak bisa\nUXJR019: Operator tidak bisa print label Recycle status complete\nUXJR020: Print label JR tidak sempurna\nUXJR021: Status operator complete setelah eksekusi admin"		
+
+        },
+        {
+        	"id": "1",
+			"Version": "V.1.0",
+			"Tanggal": "10 Januari 2017",
+			"Change": "UXJR001: Tidak bisa log out \nUXJR002: Melebihi batas waktu SOP Dailt closing operator\nUXJR003: Batch dan number roll tidak keluar di dashboard\nUXJR004: Print ZLABELJR tidak muncul apa-apa\nUXJR005: Batch dan no. roll tidak keluar di dashboard\nUXJR008: Print label recycle tidak full page\nUXJR010: Filter status harus execute\nUXJR011: Operator tidak tahu kalau ada scroll kanan di dashboard"
+        }
+         
+    ]
+}

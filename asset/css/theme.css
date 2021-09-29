@@ -1,0 +1,37 @@
+#splitterV_firstPane{
+	/*background: url(../image/bg.jpg) repeat;*/
+  	background-size: contain;
+  	max-height: auto;
+  	max-width: auto;  	
+  	background-color: #ffffff;
+}
+
+
+.sapUiPanelAreaDesignPlain>.sapUiPanelCont {
+   /*background: url(../image/bg.jpg) repeat;*/
+  	background-size: contain;
+  	max-height: auto;
+  	max-width: auto;
+}
+
+ 
+
+#__row2 img{
+	margin-left:25%;
+}
+
+#__row3 label{
+	margin-left:41%;
+}
+
+#__row4 #idDashboard--autoTCode{
+	margin-left:27%;
+	margin-top: 2%;
+}
+
+#__row5 Button{
+	margin-left:45%;
+}
+
+
+

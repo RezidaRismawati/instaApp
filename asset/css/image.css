@@ -1,0 +1,17 @@
+#blackout{
+    height: 100%;
+        width:100%;
+        position:absolute;
+    background-color: rgba(0, 0, 0, .5);
+        display: none;
+        z-index: 20;
+    }
+    .modal{
+    margin: 100px auto;
+    }
+    #close{
+    color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    

@@ -1,0 +1,104 @@
+div.login-flexbox{
+    /* background-color: #f9fcff;
+    background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%); */
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 0.5em;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+	animation-duration: 2s;
+}
+
+div.title-img{
+    padding-bottom: 0rem !important;
+}
+
+div.login-flexbox>div:nth-child(3){
+    width: 100%!important;
+}
+
+div.login-flexbox>div:nth-child(4){
+    align-self: flex-end;
+}
+
+div.outer-container{
+    background: #016682;    
+    /* #feba31; */
+    background: -webkit-linear-gradient(to right, #016682, #016682);
+    /* -webkit-linear-gradient(to right, #feba31, #ffa120); */
+    background: linear-gradient(to right, #016682, #016682);
+    /* linear-gradient(to right, #feba31, #ffa120); */
+    opacity: 1;
+	animation-name: fadeInOpacity2;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+div.login-input>div{
+    border-radius: 0.5em;
+}
+.bottom-logo-grid>div{
+    padding-top: 2rem
+}
+button.login-button{
+    font-size: large;
+    width: 100%;
+    background-color: rgb(0, 61, 105) !important;
+    color: #F3F3F3!important;
+    height: 2em !important;
+    border-radius: 5px 5px 5px 5px !important;
+    border-width: 0px !important;
+    
+}
+
+button.login-button:hover {
+    opacity: 0.8;
+}
+
+button.login-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.link-forgot {
+    font-size: 0.8rem!important
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+        opacity: 0;
+        margin-bottom: 50px;
+	}
+	100% {
+        opacity: 1;
+        margin-bottom: 0px;
+	}
+}
+
+@keyframes fadeInOpacity2 {
+	0% {
+        opacity: 0;
+	}
+	100% {
+        opacity: 1;
+	}
+}
+
+.sapMNavItem, .sapMNavItem.sapMPage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    background:white;
+}

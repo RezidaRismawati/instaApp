@@ -1,0 +1,23 @@
+/* Shellbar styling */
+div#__toolbar1 {
+    padding: 0rem !important;
+}
+
+/* Sidebar Styling */
+.sapTntSideNavigation {
+    width: 25rem;
+}
+
+.sapTntSideNavigation.sapTntSideNavigationNotExpandedWidth {
+    width: 3rem;
+}
+
+/* Sub-Header Styling */
+.sapUiSizeCompact .sapTntToolPageHeader {
+    height: 5rem;
+}
+
+/* Popover Title */
+.sapMTitle.sapMTitleNoWrap {
+    color: #366288;
+}

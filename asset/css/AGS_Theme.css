@@ -1,0 +1,948 @@
+/* Background Warna */
+
+#appId-BG{
+    background-color: #F0F0F0;
+}
+.sapUiUfdShellBG{
+    background-color: #F0F0F0;
+}
+/* Background Warna */
+
+/*---------------------------------SCROLL------------------------------------------*/
+.sapUiTableHSb{
+    margin-left: 50px !important;
+}
+
+.sapUiTableVSb::-webkit-scrollbar-thumb, html.sap-desktop.sap-tablet .sapUiTableVSb::-webkit-scrollbar-thumb, html.sap-desktop:not(.sap-tablet) .sapUiTableHSb::-webkit-scrollbar-thumb, html.sap-desktop.sap-tablet .sapUiTableHSb::-webkit-scrollbar-thumb, html.sap-desktop:not(.sap-tablet) .sapUiTableVSbExternal::-webkit-scrollbar-thumb, html.sap-desktop.sap-tablet .sapUiTableVSbExternal::-webkit-scrollbar-thumb, html.sap-desktop:not(.sap-tablet) .sapUiTableHSbExternal::-webkit-scrollbar-thumb, html.sap-desktop.sap-tablet .sapUiTableHSbExternal::-webkit-scrollbar-thumb {
+    background-color: #c7c7c7 !important;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------- HEADER ---------------------------------------
+/* Tambah jarak Content dari TOP Header */
+.sapUiUfdShellCanvas{
+    top: 50px !important;
+}
+
+/* Margin Menu Kanan */
+.sapUiUfdShellHeadEnd{
+    margin-top: 4px;
+}
+
+.sapUiUfdShellHeadBegin .sapUiUfdShellHeadContainer{
+    /* margin-top: 12px !important; DDD */
+    margin-left: 23px !important;
+}
+
+/* Background Warna Header */
+.sapUiUfdShellBrand{
+    background-color: #007FC5;
+    height: 0px;
+}
+.sapUiUfdShellHeader{
+    height: 60px !important;
+    background-color: #007FC5;        
+    border: #007FC5;
+}
+/* Background Warna Header */
+
+
+/* Warna Title Header */
+.sapMTitle {    
+    margin-top: 11px;  
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0px;
+}
+
+/* Atur Logo AGS */
+.sapUiUfdShellIco img{
+    margin-top: 24px;
+    margin-left: 23px !important;
+	width: 64px !important;
+	height: 36px !important;
+    margin-bottom: 10px;    
+}
+/* Atur Logo AGS */
+
+/* Deactive shadow pada button di header Shell */
+.sapUiUfdShellHeadItm>span, .sapUiUfdShellHeadUsrItm {
+	text-shadow: 0 0px;
+}
+/* Deactive shadow pada button di header Shell
+
+/* Shadow Header */
+.sapUiUfdShellHead{
+    height: 50px;
+    top: 0px;
+}
+
+/* Atur Size Tinggi Header */
+.sapUiUfdShellHead>div{
+    height: 50px;
+}
+
+/* Ukuran Menu Kanan */
+.sapUiUfdShellHeadItmSep span img{
+    width: 16px !important;
+    height: 16px !important;
+    cursor: pointer;
+}
+
+/* Margin Button Notifikasi */
+#__item4-img-inner{
+    margin-top: 0px;
+}
+
+/* Ukuran Button Notifikasi */
+#__item4-img-inner{
+    width: 21px !important;
+    height: 23px !important;
+}
+
+/* Warna Text Tombol User */
+.sapUiUfdShellHeadUsrItmName{
+    color: #fff;
+}
+
+/* Warna Logo Tombol User */
+.sapUiUfdShellHeadUsrItmExp{
+    color: #fff;
+    margin-right: 23px;
+}
+
+/* Button User */
+.sapUiUfdShellHeadItm span{
+    background-color: #007FC5 !important;
+}
+.sapUiUfdShellHeadItm span:hover{
+    background-color: #009de0 !important;
+    cursor: pointer !important;
+}
+.sapUiUfdShellHeadUsrItm:hover {
+    background-color: #009de0 !important;
+}
+.sapUiUx3TP {
+    font-family: Segoe UI;
+    font-size: 12px;
+    padding: 0;
+    background-color: #f7f7f7;
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+}
+.sapUiUx3TPArrow>.sapUiUx3TPArrowBorder {
+    background: #f7f7f7;
+}
+.sapUiBtnS>.sapUiBtnTxt {
+    font-family: Segoe UI;
+}
+.popupbtnuser {
+    background-color: #007fc5 !important; 
+    color: #f7f7f7 !important;
+    border-radius: 5px !important;
+    margin-bottom: 5px !important;
+}
+.popupbtnuserlast {
+    background-color: #007fc5 !important; 
+    color: #f7f7f7 !important;
+    border-radius: 5px !important;
+}
+html.sapUiMedia-Std-Desktop .sapUiUfdShellHeadItm:hover>span, html.sapUiMedia-Std-Desktop .sapUiUfdShellHeadUsrItm:hover>* {
+    background-color: #009de0;
+}
+html.sapUiMedia-Std-Desktop .sapUiUfdShellHeadItm:hover>span, html.sapUiMedia-Std-Desktop .sapUiUfdShellHeadUsrItm:hover:active>* {
+    background-color: #009de0;
+}
+/* Button User */
+
+.sapUiUfdShellHeadUsrItm{
+    margin-left: 25px;
+    cursor: pointer;
+    right: 20px;        
+    background-color: #007FC5 !important;
+}
+.sapUiUfdShellHeadUsrItmExp{
+    margin-right: 0px !important;
+}
+.sapUiUfdShellHeadUsrItmName{
+    padding-left: 15px;
+    padding-right: 25px;
+}
+
+/*Hilangkan Dot Hitam Pada Button*/
+.sapUiUfdShellHeadUsrItm:focus .sapUiUfdShellHeadUsrItmExp, .sapUiUfdShellHeadUsrItm:focus .sapUiUfdShellHeadUsrItmName, .sapUiUfdShellHeadUsrItm:focus .sapUiUfdShellHeadUsrItmImg, .sapUiUfdShellHeadItm:focus>span {
+    border: 0px dotted #1a237e;
+    border-color: #1a237e;
+}
+
+img[src="asset/image/logo.png"]{
+    cursor: pointer;
+}
+
+/* Logo Header */
+.sapUiUfdShellHeadBegin .sapUiUfdShellHeadContainer .sapUiUfdShellHeadItm span img{
+	width: 64px !important;
+	height: 36px !important; 
+} 
+
+.sapUiUfdShellHeadBegin .sapUiUfdShellHeadContainer .sapUiUfdShellHeadItm{
+	width: 72px !important;
+	height: 50px !important;
+} 
+
+.sapUiUfdShellHeadBegin .sapUiUfdShellHeadContainer .sapUiUfdShellHeadItm span{
+    width: 72px !important;
+	height: 50px !important;
+    background-color: #007FC5 !important;
+} 
+
+/* Hilangkan Border Pada Logo Header */
+.sapUiUfdShellHeadBegin .sapUiUfdShellHeadItm.sapUiUfdShellHeadItmSep::after{
+    border-left: none !important; 
+}
+
+/* Nengahin Title Header */
+/* #__shell0-header-hdr-center{
+    left: 20% !important;
+    right: 32% !important;
+} */
+.sapUiUfdShellHeadCenter.sapUiUfdShellAnim{
+    left: 20% !important;
+    right: 32% !important;
+}
+
+/* Logo Header */
+.sapUiUfdShellHeadUsrItm::after, .sapUiUfdShellHeadEnd .sapUiUfdShellHeadItm.sapUiUfdShellHeadItmSep::after{
+    background-color: #2E938E !important;
+}
+/* Icon Color Menu Button */
+.sapUiUfdShellHeadItm.sapUiUfdShellHeadItmSep span[role=presentation]{
+    color: white !important;
+}
+/* Icon Color Menu Button */
+
+/* Icon Sub Menu */
+ .sapUiBtnIco.sapUiBtnIcoL.sapUiIcon.sapUiIconMirrorInRTL{
+    color: white !important;
+}
+.sapUiBtnIco.sapUiBtnIcoL.sapUiIcon{
+    color: white !important;
+}
+/* Icon Sub Menu */
+
+/*----------------------------------- HEADER ---------------------------------------
+
+/*--------------------------------- SUB HEADER -------------------------------------
+/* Sub Header Style */
+.bgSubheader.sapContrastPlus.sapMBar.sapMBar-CTX.sapMFooter-CTX.sapMIBar.sapMIBar-CTX{
+    background-color: white;
+    height: 30px;
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.34);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.34);
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.34);
+    border-top: none !important;
+}
+.sapMPageSubHeader{
+    position: relative !important;
+}
+.sapMPage>.sapMPageHeader + section, .sapMPage>.sapMPageSubHeader + section, .sapMPage>.sapMPageHeader + .sapUiHiddenPlaceholder + section{
+    top:2rem !important;
+}
+/* Sub Header Style */
+
+/* Search Bar */
+.searchBar{
+    border: 0px solid #bfbfbf;
+    border-bottom-color: #DBDBDB;
+    background: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-left: 22px !important;
+    margin-top: 3px;
+}
+.searchBar:hover{
+    border-bottom-color: #007FC5 !important;
+    border-bottom-width: 2px !important;
+}
+.searchBar>input{
+    color: #707070 !important;
+    font-family: 'segoe ui' !important;
+    font-style: italic !important;
+    font-size: 15px;
+}
+/* Search Bar */
+/*--------------------------------- SUB HEADER -------------------------------------
+
+/*----------------------------------- DIALOG ---------------------------------------*/
+.sapUiDlg.sapUiDlgContentBorderDesignNone.sapUiDlgFlexHeight.sapUiDlgModal.sapUiShd{
+    background-color: #007FC5;
+}
+/* .DialogStyle .sapUiDlgHdr{
+    background-color: #007FC5;
+} */
+.DialogStyle .sapUiDlgFooterSep{
+    background-color: #fff;
+}
+.DialogStyle .sapUiDlgFooter{
+    background-color: #fff;
+}
+.DialogStyle .sapUiDlgHdrLeft span{
+    color: #fff;
+}
+.DialogStyle .sapUiDlgCloseBtn{
+    background-image: url('../image/dlg-close-hov.png') !important;
+}
+.DialogStyle.sapUiDlg{
+    background-color: #007FC5 !important;
+}
+
+.DialogStyleErr .sapUiDlgFooterSep{
+    background-color: #fff;
+}
+.DialogStyleErr .sapUiDlgFooter{
+    background-color: #fff;
+}
+.DialogStyleErr .sapUiDlgHdrLeft span{
+    color: #fff;
+}
+.DialogStyleErr .sapUiDlgCloseBtn{
+    background-image: url('../image/dlg-close-hov.png') !important;
+}
+.DialogStyleErr.sapUiDlg{
+    background-color: #B80F0A !important;
+}
+.DialogStyleErr .sapUiCommonsHoriDivTypeArea {
+    border-color: #B80F0A;
+    border-width: medium;
+    border-radius: 2px;
+}
+
+.DialogStyleWarn .sapUiDlgFooterSep{
+    background-color: #fff;
+}
+.DialogStyleWarn .sapUiDlgFooter{
+    background-color: #fff;
+}
+.DialogStyleWarn .sapUiDlgHdrLeft span{
+    color: #fff;
+}
+.DialogStyleWarn .sapUiDlgCloseBtn{
+    background-image: url('../image/dlg-close-hov.png') !important;
+}
+.DialogStyleWarn.sapUiDlg{
+    background-color: #f46c02 !important;
+}
+.DialogStyleWarn .sapUiCommonsHoriDivTypeArea {
+    border-color: #f46c02;
+    border-width: medium;
+    border-radius: 2px;
+}
+
+/*----------------------------------- DIALOG ---------------------------------------*/
+
+/*----------------------------------- PANEL ---------------------------------------*/
+.sapMPanelContent:not(.sapMPanelBGTransparent){
+    border-bottom: 0px solid !important;
+}
+.pnlMainStyle.sapMPanel{
+    top:1rem;
+}
+/* Konten Di Beri Margin dan Shadow */
+.pnlMainStyle{
+    margin-bottom: 20px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
+}
+/*----------------------------------- PANEL ---------------------------------------*/
+
+.roundedbuttonback{
+    background-color: white !important;
+    border:none !important;
+    margin-top: 3px;
+}
+.roundedbuttonback>.sapUiBtnIco{
+    color: #707070 !important;
+    background-color: white !important;        
+}
+
+.roundedbuttoncancel{
+    background-color: white !important;
+    border:none !important;
+    margin-top: 3px;
+}
+.roundedbuttoncancel>.sapUiBtnIco{
+    color: #CB0909 !important;
+    background-color: white !important;
+}
+
+/*----------------------------------- BUTTON STANDARD ---------------------------------------*/
+.btnGray{
+    background-color: #AAAAAA !important;
+    color: #fff !important;
+    border: 1px solid #AAAAAA !important;
+    border-radius: 0px;
+    font-family: 'segoe ui' !important;
+    font-weight: normal;
+}
+.btnGray span[role=presentation]{
+    color: white !important;
+}
+
+.btnRed{
+    background-color: #C9302C !important;
+    color: #fff !important;
+    border: 1px solid #C9302C !important;
+    border-radius: 0px;
+    font-family: 'segoe ui' !important;
+    font-weight: normal;
+}
+.btnRed span[role=presentation]{
+    color: white !important;
+}
+
+.btnGreen{
+    background-color: #5CB85C !important;
+    color: #fff !important;
+    border: 1px solid #5CB85C !important;
+    border-radius: 0px;
+    font-family: 'segoe ui' !important;
+    font-weight: normal;
+}
+.btnGreen span[role=presentation]{
+    color: white !important;
+}
+
+.btnBlue{
+    background-color: #31B0D5 !important;
+    color: #fff !important;
+    border: 1px solid #31B0D5 !important;
+    border-radius: 0px;
+    font-family: 'segoe ui' !important;
+    font-weight: normal;
+}
+.btnBlue span[role=presentation]{
+    color: white !important;
+}
+
+.btnDarkBlue{
+    background-color: #286090 !important;
+    color: #fff !important;
+    border: 1px solid #286090 !important;
+    border-radius: 0px;
+    font-family: 'segoe ui' !important;
+    font-weight: normal;
+}
+.btnDarkBlue span[role=presentation]{
+    color: white !important;
+}
+
+.btnYellow{
+    background-color: #EC971F !important;
+    color: #fff !important;
+    border: 1px solid #EC971F !important;
+    border-radius: 0px;
+    font-family: 'segoe ui' !important;
+    font-weight: normal;
+}
+.btnYellow span[role=presentation]{
+    color: white !important;
+}
+/*----------------------------------- BUTTON STANDARD ---------------------------------------*/
+
+/*----------------------------------- TEXT FIELD ---------------------------------------*/
+/* Display */
+.sapUiSizeCompact .sapMInputBaseInner{
+    padding: 0 0.1rem !important;
+}
+.textAlignRight input{
+    text-align: right;
+    padding-right: 0px !important;
+}
+.sapMInputBaseContentWrapper{
+    border: 0px;
+    border-bottom-color: #007FC5;
+    background: transparent !important;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.sapMInputBaseContentWrapper:focus-within{
+    border: 0px solid !important;
+    background: #ffffff !important;
+    border-bottom-color: #007FC5 !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 2px !important;    
+}
+/* Disabled */
+.sapMInputBaseContentWrapper.sapMInputBaseDisabledWrapper{
+    border: 0px;
+    border-bottom-color: #707070;
+    background: transparent !important;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+.sapMInputBaseDisabled{
+    opacity: unset;
+}
+
+/* Text */
+.sapMInputBaseInner{
+    color: #707070 !important;
+    font-family: 'segoe ui' !important;
+    font-size: 15px !important;
+    padding-left: 1.6px !important;
+}
+.sapMInputBase {
+    height: 1.5rem;
+    background: transparent;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+/*----------------------------------- TEXT FIELD ---------------------------------------*/
+
+/*----------------------------------- USERNAME FIELD ---------------------------------------*/
+/* Display */
+.UsernameFieldStyle .sapUiSizeCompact.sapMInputBaseInner{
+    padding: 0 0rem !important;
+}
+.UsernameFieldStyle .sapMInputBaseContentWrapper{
+    border: 0px;
+    border-bottom-color: #007FC5;
+    background: transparent !important;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;    
+}
+::placeholder { /* Firefox, Chrome, Opera */ 
+    font-style: italic !important;
+    font-family: 'segoe ui' !important;
+    font-size: 16px !important;
+    color: #707070 !important;        
+} 
+/* Text */
+.UsernameFieldStyle .sapMInputBaseInner{
+    color: #707070 !important;
+    font-family: 'segoe ui' !important;
+    font-size: 16px !important;   
+    padding-left: 1.6px !important; 
+}
+.UsernameFieldStyle .sapMInputBase{
+    height: 2rem !important;
+    background: transparent;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+/*----------------------------------- USERNAME FIELD ---------------------------------------*/
+
+/*----------------------------------- PASSWORD FIELD ---------------------------------------*/
+/* Editable */
+.PasswordFieldStyle.sapUiTf.sapUiTfBack.sapUiTfBrd.sapUiTfStd{    
+    background: transparent;
+    border: 0px;
+    border-bottom-color: #007FC5;
+    background: transparent !important;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+
+    color: #707070 !important;
+    font-family: 'segoe ui' !important;
+    font-size: 16px !important;
+    height:2rem !important;
+    padding: 0px 0.1px 0px 0.1px !important;
+}
+/* Disabled */
+.PasswordFieldStyle.sapUiTf.sapUiTfBack.sapUiTfBrd.sapUiTfDsbl{
+    background: transparent;
+    border: 0px;
+    border-bottom-color: #DBDBDB;
+    background: transparent !important;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+
+    color: #707070 !important;
+    font-family: 'segoe ui' !important;
+    font-size: 16px !important;
+    height:2rem !important;
+    padding: 0px 0.1px 0px 0.1px !important;
+    pointer-events:none;
+}
+/*----------------------------------- PASSWORD FIELD ---------------------------------------*/
+
+/*----------------------------------- VALUE HELP ---------------------------------------*/
+.valueHelpStyle .sapMInputBaseContentWrapper.sapMInputBaseHasEndIcons{
+    border: 0px solid #bfbfbf;
+    border-bottom-color: #007FC5;
+    background: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+.valueHelpStyle .sapMInputBaseContentWrapper.sapMInputBaseHasEndIcons:focus-within{
+    border: 0px solid #DBDBDB !important;
+    border-bottom-color: #DBDBDB !important;
+    background: #ffffff !important;
+    border-bottom-color: #007FC5 !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 2px !important;    
+}
+.valueHelpStyle .sapMInputBaseContentWrapper.sapMInputBaseHasEndIcons:hover{
+    border-bottom-color: #007FC5 !important;
+    border-bottom-width: 2px !important;
+}
+.valueHelpStyle .sapMInputBaseIcon{
+    line-height: 1.375rem !important;
+}
+.valueHelpStyle span[role=presentation]{
+    color: #707070 !important;
+}
+.valueHelpStyle span[role=presentation]:active{
+    color: #ffffff !important;
+}
+
+.valueHelpStyle .sapMInputBaseInner{
+    font-family: 'segoe ui' !important;
+    font-weight: normal;
+    font-size: 15px;
+    padding-left: 1.6px !important;
+}
+/*----------------------------------- VALUE HELP ---------------------------------------*/
+
+/*----------------------------------- DATE PICKER --------------------------------------*/
+.DatePickerStyle .sapMInputBaseContentWrapper.sapMInputBaseHasEndIcons{
+    border: 0px solid #bfbfbf;
+    border-bottom-color: #007FC5;
+    background: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+.DatePickerStyle .sapMInputBaseContentWrapper.sapMInputBaseHasEndIcons:focus-within{
+    border: 0px solid #DBDBDB !important;
+    border-bottom-color: #DBDBDB !important;
+    background: #ffffff !important;
+    border-bottom-color: #007FC5 !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 2px !important;    
+}
+.DatePickerStyle .sapMInputBaseContentWrapper.sapMInputBaseHasEndIcons:hover{
+    border-bottom-color: #007FC5 !important;
+    border-bottom-width: 2px !important;
+}
+.DatePickerStyle .sapMInputBaseIcon{
+    line-height: 1.375rem !important;
+}
+.DatePickerStyle span[role=presentation]{
+    color: #707070 !important;
+}
+.DatePickerStyle span[role=presentation]:active{
+    color: #ffffff !important;
+}
+.DatePickerStyle .sapMInputBaseInner{
+    font-family: 'segoe ui' !important;
+    font-weight: normal;
+    font-size: 15px;
+    padding-left: 1.6px !important;
+}
+.sapUiCalItemNow>.sapUiCalItemText {
+    border: 0.125rem solid #007FC5 !important;
+}
+.sapUiCalItemSel{
+    background-color: #007FC5 !important;
+}
+/*----------------------------------- DATE PICKER --------------------------------------*/
+
+/*----------------------------------- DROP DOWN ---------------------------------------*/
+.ComboStyle .sapMInputBaseContentWrapper.sapMInputBaseHasEndIcons{
+    border: 0px solid #bfbfbf;
+    border-bottom-color: #007FC5;
+    background: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+.ComboStyle .sapMInputBaseContentWrapper.sapMInputBaseHasEndIcons:focus-within{
+    border: 0px solid #DBDBDB !important;
+    border-bottom-color: #DBDBDB !important;
+    background: #ffffff !important;
+    border-bottom-color: #007FC5 !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 2px !important;    
+}
+.ComboStyle .sapMInputBaseContentWrapper.sapMInputBaseHasEndIcons:hover{
+    border-bottom-color: #007FC5 !important;
+    border-bottom-width: 2px !important;
+}
+.ComboStyle .sapMSelectListItem.sapMSelectListItemBase.sapMSelectListItemBaseHoverable{
+    background-color: white;
+    font-family: 'segoe ui' !important;
+    font-weight: normal;
+    font-size: 15px;
+}
+.ComboStyle .sapMSelectListItem.sapMSelectListItemBase.sapMSelectListItemBaseHoverable:hover{
+    background-color: #007FC5;
+    color: white;
+    font-family: 'segoe ui' !important;
+    font-weight: normal;
+    font-size: 15px;
+}
+.ComboStyle .sapMInputBaseIcon{
+    line-height: 1.375rem !important;
+}
+/*----------------------------------- DROP DOWN ---------------------------------------*/
+
+ /* Label  */
+.LabelStyle{
+    font-family: 'segoe ui' !important;
+    font-size: 15px;
+    color:#707070;
+}
+ /* Label  */
+
+ /* Link */
+ .sapUiLnk {
+    font-family: 'segoe ui' !important;
+ }
+ /* link */
+
+/*----------------------------------- TABLE ---------------------------------------*/
+/* .tableStyle .sapUiTableVSb{
+    max-height: unset !important;
+} */
+/* .tableStyle .sapUiTableVSb .sapUiTableVSbContent{
+    height: unset;
+} */
+/* .tableStyle .sapUiTableVSb .sapUiTableVSbContent{
+     height: calc(inherit + 900px) !important;
+    height: translateY(100%) !important;
+}*/
+
+.sapUiCommonsHoriDiv.sapUiCommonsHoriDivHeightM.sapUiCommonsHoriDivTypeArea{
+    width: 99.65% !important;
+}
+
+.sapUiTableColHdrTr #__column0{
+    padding-left: 5px !important;
+}
+
+.sapUiTableRowSelectors .sapUiTableTr>td.sapUiTableTdFirst{
+    padding-left: 5px !important;
+}
+
+.tableStyle .sapUiTableCnt{
+    border:1px solid #bbbbbb;
+}
+.tableStyle .sapUiTableColRowHdr.sapUiTableSelAllDisabled:first-child{
+    background-color: white;    
+    border-right: 1px solid #bbbbbb;
+}
+.tableStyle .sapUiTableColHdrCnt{
+    border-bottom: 1px solid #bbbbbb;
+}
+.sapUiTableRowSelectors:not(.sapUiTableRowHighlights) .sapUiTableColRowHdr{
+    width: 50px;
+}
+.sapUiTableRowSelectors:not(.sapUiTableRowHighlights) .sapUiTableCtrlScr, .sapUiTableRowSelectors:not(.sapUiTableRowHighlights) .sapUiTableCtrlScrFixed{
+    margin-left: 50px;
+}
+.tableStyle .sapUiTableRowHdr{
+    border-bottom: 0px solid !important;
+    width: 50px;
+    border-right: 1px solid #bbbbbb
+}
+.tableStyle .sapUiTableCol{
+    background-color: white;
+    height: 50px;
+    border-right: 0px !important;    
+}
+.tableStyle .sapUiTableTd{
+    border-right: 0px !important;
+    border: 0px solid !important;
+}
+.tableStyle .sapUiTableCtrl.sapUiTableCtrlRowScroll.sapUiTableCtrlScroll>tbody>tr:nth-of-type(odd) {
+    background-color:#FAFAFA;
+    /* height: 50px !important; */
+}
+.tableStyle .sapUiTableCtrl.sapUiTableCtrlRowScroll.sapUiTableCtrlScroll>tbody>tr:nth-of-type(even) {
+    background-color:white;
+    /* height: 50px !important; */
+}
+.tableStyle .sapUiTableTr.sapUiTableRowHvr>td:not(.sapUiTableTDDummy) {
+    background-color:#C1E7F3
+}
+.tableStyle .sapUiTableRowHdr.sapUiTableRowSel {
+    background-color:#C1E7F3 !important
+}
+.tableStyle .sapUiTableTr.sapUiTableRowSel:not(.sapUiTableGroupHeader)>td:not(.sapUiTableTDDummy){
+    background-color:#C1E7F3 !important
+}
+.sapMListTblRow.sapMP13nColumnsPanelItemSelected:focus{background-color:#C1E7F3}
+.tableStyle .sapUiTableRowHdr.sapUiTableRowHvr {
+    background-color:#C1E7F3 !important
+}
+.tableStyle .sapUiTableRowHdr:nth-of-type(odd) {
+    background-color:#FAFAFA
+}
+.tableStyle .sapUiTableColCell>label{
+    font-family: 'Segoe UI';
+    color: #707070;
+    font-size: 15px;
+    font-weight: normal;
+}
+.tableStyle .sapUiTv{
+    font-family: 'Segoe UI';
+    color: #707070;
+    font-size: 15px;
+    font-weight: normal;
+}
+ /*----------------------------------- TABLE ---------------------------------------*/
+ 
+/* Garis */
+.sapUiCommonsHoriDivTypeArea {
+    border-color: #007fc5;
+    border-width: medium;
+    border-radius: 2px;
+}
+/* Garis */
+
+/*----------------------------------- TILE ---------------------------------------*/
+.OneByOne.sapMGT {
+    display: inline-block !important;
+    overflow: hidden !important;
+    background: #F8F8F8 !important;
+    border-radius: 0.25rem !important;
+    position: relative !important;
+    box-sizing: border-box !important;
+    border: 1px transparent dotted !important;
+    outline: none !important;
+    height: 74.3px;
+    width:150px;
+    -webkit-box-shadow: 8px 10px 15px -5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 8px 10px 15px -5px rgba(0,0,0,0.2);
+    box-shadow: 8px 10px 15px -5px rgba(0,0,0,0.2);
+    border: 1px solid #F8F8F8 !important;
+    margin-right: 26px;    
+    margin-bottom: 21px;
+}
+/* Tile */
+.OneByOne.sapMGTHdrContent{
+    margin-left: 0.50rem;
+    margin-right: 0.50rem;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sapMTextMaxLine{
+    text-align: center;
+    color: #7A7A7A !important;
+    font-family: 'segoe ui' !important;
+    font-weight: normal;
+    font-size: 16px;
+    width: 130px;
+}
+/*----------------------------------- TILE ---------------------------------------*/
+
+/*--------------------------------- CHECK BOX ------------------------------------*/
+.CheckboxStyle{
+    font-family: 'segoe ui' !important;
+    font-size: 15px;
+    color:#707070;
+}
+/*--------------------------------- CHECK BOX ------------------------------------*/
+
+/*--------------------------------- RADIO BUTTON ------------------------------------*/
+.sapUiRb label{
+    font-family: 'segoe ui' !important;
+    font-size: 15px;
+    color:#707070;
+}
+/*--------------------------------- RADIO BUTTON ------------------------------------*/
+
+body {
+    opacity: 0;
+}
+
+body.all-loaded {
+    opacity: 1;
+    transition: all 0.5s linear;
+}
+
+.sapUiBodyBackground, .sapUiBody{
+    background-color: #F8F8F8 !important;
+    background-image: linear-gradient(to bottom,#F8F8F8 0,#F8F8F8 50%,#F8F8F8 100%) !important;
+}
+
+/* Switch */
+.sapMSwt {
+    width: 90px !important;
+  }
+
+  .sapMSwtLabel {
+    width: 65px;
+  }
+  
+  .sapMSwtOn div.sapMSwtHandle {
+    left: 70px !important  ;
+  }
+/* Switch */
+
+/* --------------------------- CHART XRF ----------------------------- */
+#containerCanvas{
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    padding-right: 40px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-top: 50px;
+    border-color: #707070;
+}
+
+#containerCanvas span{
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    color: #707070;
+    align-content: center;
+    justify-content: center;
+}
+
+#containerCanvas2{
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    padding-right: 40px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-top: 50px;
+    border-color: #707070;
+}
+
+#containerCanvas2 span{
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    color: #707070;
+    align-content: center;
+    justify-content: center;
+}
+/* --------------------------- CHART XRF ----------------------------- */
+
+.rowError {
+    color: #B80F0A !important;
+    font-weight: bold;
+}
+
+html.sap-desktop .sapMDialog {
+    min-width: 0;
+}
+
+.loading {
+    border-radius: 15px;
+}
+
+.sapMPanelContent {
+    height: calc(100% - 0px) !important;
+}
